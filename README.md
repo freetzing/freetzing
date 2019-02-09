@@ -2,19 +2,9 @@
 
 The focus of this project is to construct a version of Fritzing that is highly modularized and exposed to a wider array of the open source community.
 
-## The Future
-- **Modularize Fritzing data models**
-- Conversion from old data (Sketches, Parts)
-- Helper functions (get, set, indexOf, remove, etc.)
-- Documentation
-- Testing
-- Publish libraries to NPM
-- Rendering
-  - Parts
-  - Sketches
-- Full-scale application
-  - Editing
-  - Autorouting
+## Development
+
+We are currently working on the [`fritzing-js`](https://github.com/freetzing/fritzing-js) library to provide a bridge between **freetzing** and the **Fritzing** ecosystem. Check back again soon, as we will immediately focus development on this repository once the library has been completed.
 
 ## License
 

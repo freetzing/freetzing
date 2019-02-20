@@ -1,0 +1,37 @@
+{
+  "moduleId": "unique indentifier id",
+  "name": "the full name of the bundel",
+  "version": "revison of the creation",
+  "description": "description",
+  "label": "label seen in freetzing app",
+  "url": "project homepage",
+  "sourceUrl": "e.g. giturl <- get the package direct from git",
+  "creator": "name of the creator",
+  "contributors": ["list of contributors"],
+  "views": [{
+      "breadboard": "source to breadboardview file (fbr)"
+    },
+    {
+      "schematic": "source to schematicview file (fsc)"
+    },
+    {
+      "pcb": "source to pcbview file (fpc)"
+    }
+  ],
+  "connectors": {
+    "internal": [{
+      "connectorId": "moduleid+connectorid",
+      "signal": "the electrical signal of the connector",
+      "connected": "boolean",
+      "connectedTo": [{
+        "moduleId": "module id of the other fb",
+        "connectorId": "connector id of the fb"
+      }]
+    }],
+    "external": [{
+      "connectorId": "external connectorid",
+      "signal": "the electrical signal of the connector",
+      "label": "the name in the freetzing app"
+    }]
+  }
+}

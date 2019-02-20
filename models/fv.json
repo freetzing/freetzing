@@ -1,0 +1,8 @@
+{
+  "label": "breadboard",
+  "viewid": "unique id",
+  "modules": [{
+    "moduleId": "fb-module id (...ref. freetzing-fb via moduleid)",
+    "pos": ["x", "y"]
+  }]
+}

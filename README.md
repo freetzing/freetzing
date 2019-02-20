@@ -1,6 +1,8 @@
 # Freetzing
 
-The focus of this project is to construct a version of Fritzing that is highly modularized and exposed to a wider array of the open source community.
+![freetzing logo](https://raw.githubusercontent.com/freetzing/freetzing/master/freetzing_logo.png)
+
+The focus of this project is to construct a version of [Fritzing](https://github.com/fritzing/fritzing-app) that is highly modularized and exposed to a wider array of the open source community.
 
 ## Development
 

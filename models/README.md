@@ -55,7 +55,7 @@ this will open up the possibility to include them into each other.
 }
 ```
 
-## freetzing view (fv)
+## freetzingView (fv)
 
 a view could than have a model like this
 ```

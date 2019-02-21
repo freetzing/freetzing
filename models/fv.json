@@ -4,5 +4,21 @@
   "modules": [{
     "moduleId": "fb-module id (...ref. freetzing-fb via moduleid)",
     "pos": ["x", "y"]
-  }]
+  }],
+  "traces": [{
+    "traceId": "a unique trace id",
+    "signal": "the signal the trace is attached to (GND, 5v etc.)",
+    "from": {
+      "moudleId": "moduleId",
+      "connectorId": "connectorId"
+    },
+    "to": {
+      "moudleId": "moduleId",
+      "connectorId": "connectorId"
+    },
+    "bendpoints": [{
+      "x": "x coords of the bendpoint on the trace",
+      "y": "y coords of the bendpoint on the trace"
+    }],
+  }],
 }

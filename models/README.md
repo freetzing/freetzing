@@ -8,7 +8,10 @@ change that in the new univers.
 
 somehow we want to achieve that we have just one model for at least sketches and parts
 this will open up the possibility to include them into each other.
-so lets call our new model:
+
+
+<img src="https://raw.githubusercontent.com/freetzing/freetzing/master/designFiles/model_schem.png" />
+
 
 ## freetzingBundel (fb)
 
@@ -62,6 +65,22 @@ a view could than have a model like this
   "modules": [{
     "moduleId": "fb-module id (...ref. freetzing-fb via moduleid)",
     "pos": ["x", "y"]
-  }]
+  }],
+  "traces": [{
+    "traceId": "a unique trace id",
+    "signal": "the signal the trace is attached to (GND, 5v etc.)",
+    "from": {
+      "moudleId": "moduleId",
+      "connectorId": "connectorId"
+    },
+    "to": {
+      "moudleId": "moduleId",
+      "connectorId": "connectorId"
+    },
+    "bendpoints": [{
+      "x": "x coords of the bendpoint on the trace",
+      "y": "y coords of the bendpoint on the trace"
+    }],
+  }],
 }
 ```
